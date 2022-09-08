@@ -1,5 +1,3 @@
-'#!/bin/bash' >
-4-puts.c
 #include <stdio.h>
 
 /**
