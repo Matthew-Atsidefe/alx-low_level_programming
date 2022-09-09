@@ -7,7 +7,7 @@
  * number stored in the variable n
  * Return: Always 0 (Success)
  */
-int main(void)
+ int main(void)
 {
 	int n;
 
@@ -22,3 +22,4 @@ int main(void)
 		printf("and is less than 6 and not 0\n");
 	return (0);
 }
+
