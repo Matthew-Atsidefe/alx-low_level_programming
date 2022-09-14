@@ -1,5 +1,5 @@
 #include "main.h"
-/***
+/**
  * print_sign - function
  *
  * @n: The character to evaluate
