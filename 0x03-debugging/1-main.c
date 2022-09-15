@@ -13,12 +13,7 @@ int main(void)
 
 	i + 0:
 
-		/*
-		 * while (i < 10)
-		 * {
-		 * putchar(i);
-		 * }
-		 */
-		printf("Avoided Infinie loop! \\o/\n");
+		
+	printf("Avoided Infinie loop! \\o/\n");
 	return (0);
 }
