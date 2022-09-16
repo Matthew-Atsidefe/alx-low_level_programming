@@ -8,23 +8,20 @@
  */
 void print_square(int size)
 {
-	int rows = size;
-	int orSize = size;
+	if (size <= 0)
+	{
+		_putchar('\n');
+	} else
+	{
+		int i, j;
 
-	if (size > 0)
-	{
-		while (size--)
+		for (i = 0; i < size; i++)
 		{
-			while (rows--)
+			for (j = 0; j < size; j++)
 			{
-				_putchar(35);
+				_putchar('#');
 			}
-			_putchar(10);
-			rows = orSize;
+			_putchar('\n');
 		}
-	}
-	else
-	{
-		_putchar(10);
 	}
 }
